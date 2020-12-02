@@ -53,5 +53,11 @@
             <className>wcf\system\menu\user\profile\content\IUserProfileMenuContent</className>
             <pip>userProfileMenu</pip>
         </autocomplete>
+        <autocomplete>
+            <query>data::import::cronjob::classname</query>
+            <type>CLASS</type>
+            <className>wcf\system\cronjob\ICronjob</className>
+            <pip>cronjob</pip>
+        </autocomplete>
     </completion>
 </config>
